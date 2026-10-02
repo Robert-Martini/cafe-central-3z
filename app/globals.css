@@ -33,25 +33,25 @@
 
 /* Café Central palette: warm cream, ivory, coffee brown, dark espresso, caramel */
 :root {
-  color-scheme: light;
-  --background: oklch(0.968 0.014 80);
-  --foreground: oklch(0.24 0.025 45);
-  --card: oklch(0.984 0.01 85);
-  --card-foreground: oklch(0.24 0.025 45);
-  --popover: oklch(0.984 0.01 85);
-  --popover-foreground: oklch(0.24 0.025 45);
-  --primary: oklch(0.34 0.05 45);
-  --primary-foreground: oklch(0.975 0.012 82);
-  --secondary: oklch(0.948 0.02 76);
-  --secondary-foreground: oklch(0.28 0.035 45);
-  --muted: oklch(0.948 0.02 76);
-  --muted-foreground: oklch(0.47 0.03 55);
-  --accent: oklch(0.53 0.09 58);
-  --accent-foreground: oklch(0.975 0.012 82);
+  color-scheme: dark;
+  --background: oklch(0.235 0.025 45);
+  --foreground: oklch(0.955 0.015 80);
+  --card: oklch(0.275 0.028 45);
+  --card-foreground: oklch(0.955 0.015 80);
+  --popover: oklch(0.275 0.028 45);
+  --popover-foreground: oklch(0.955 0.015 80);
+  --primary: oklch(0.93 0.025 80);
+  --primary-foreground: oklch(0.235 0.025 45);
+  --secondary: oklch(0.265 0.027 45);
+  --secondary-foreground: oklch(0.955 0.015 80);
+  --muted: oklch(0.265 0.027 45);
+  --muted-foreground: oklch(0.78 0.025 70);
+  --accent: oklch(0.74 0.09 65);
+  --accent-foreground: oklch(0.235 0.025 45);
   --destructive: oklch(0.577 0.245 27.325);
-  --border: oklch(0.875 0.022 70);
-  --input: oklch(0.875 0.022 70);
-  --ring: oklch(0.53 0.09 58);
+  --border: oklch(0.36 0.03 50);
+  --input: oklch(0.36 0.03 50);
+  --ring: oklch(0.74 0.09 65);
   --radius: 0.625rem;
 }
 
