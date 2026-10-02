@@ -21,7 +21,10 @@ export function Hero() {
             </a>
             <a
               href="#visit"
-              className={cn(buttonVariants({ variant: 'outline' }), 'h-12 rounded-full bg-transparent px-7 text-sm')}
+              className={cn(
+                buttonVariants({ variant: 'outline' }),
+                'h-12 rounded-full border-primary/30 bg-transparent px-7 text-sm text-foreground hover:bg-secondary',
+              )}
             >
               Visitanos
             </a>
@@ -29,7 +32,7 @@ export function Hero() {
         </div>
 
         <div className="lg:col-span-7">
-          <div className="relative aspect-[4/3] overflow-hidden rounded-2xl lg:aspect-[5/4]">
+          <div className="relative aspect-[4/3] overflow-hidden rounded-2xl border border-border lg:aspect-[5/4]">
             <Image
               src="/images/hero-coffee.png"
               alt="Un flat white con latte art sobre una barra de madera, junto a plantas verdes"

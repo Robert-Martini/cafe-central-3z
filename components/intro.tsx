@@ -1,19 +1,19 @@
 import Image from 'next/image'
 
 const highlights = [
-  { value: '12', label: 'Origins on rotation' },
-  { value: '48h', label: 'From roast to cup' },
-  { value: '2014', label: 'Brewing since' },
+  { value: '12', label: 'Orígenes en rotación' },
+  { value: '48 h', label: 'Del tueste a la taza' },
+  { value: '2014', label: 'Preparando café desde' },
 ]
 
 export function Intro() {
   return (
-    <section id="about" className="scroll-mt-20 bg-secondary">
-      <div className="mx-auto grid max-w-6xl items-center gap-12 px-6 py-20 md:grid-cols-2 md:gap-16 md:py-28">
-        <div className="relative aspect-[4/5] overflow-hidden rounded-2xl">
+    <section id="about" className="scroll-mt-20 border-y border-border bg-secondary">
+      <div className="mx-auto grid max-w-6xl items-center gap-10 px-6 py-16 md:grid-cols-2 md:gap-16 md:py-24">
+        <div className="relative aspect-[4/5] overflow-hidden rounded-2xl border border-border">
           <Image
             src="/images/barista-pour.png"
-            alt="A barista preparing a pour-over coffee with a gooseneck kettle"
+            alt="Un barista preparando un café filtrado con una pava de pico fino"
             fill
             sizes="(min-width: 768px) 540px, 100vw"
             className="object-cover"
@@ -21,18 +21,18 @@ export function Intro() {
         </div>
 
         <div>
-          <p className="text-xs font-medium uppercase tracking-[0.3em] text-accent">Our story</p>
-          <h2 className="mt-5 font-serif text-4xl leading-tight font-medium text-balance md:text-5xl">
-            A neighbourhood café built around the craft of coffee.
+          <p className="text-xs font-medium uppercase tracking-[0.3em] text-accent">Nuestra historia</p>
+          <h2 className="mt-5 font-serif text-4xl leading-tight font-medium text-balance text-foreground md:text-5xl">
+            Un café de barrio construido alrededor del buen café.
           </h2>
-          <div className="mt-6 space-y-4 leading-relaxed text-muted-foreground">
+          <div className="mt-6 max-w-md space-y-4 text-base leading-relaxed text-muted-foreground md:text-lg">
             <p>
-              We work directly with small farms to source seasonal, traceable beans, then roast them in small
-              batches to bring out what makes each one distinct.
+              Trabajamos directamente con pequeños productores para conseguir granos de estación y trazables, y los
+              tostamos en lotes chicos para resaltar lo que hace único a cada uno.
             </p>
             <p>
-              Our space is simple on purpose: warm wood, living plants, natural light, and a bar where you can
-              watch every cup being made.
+              Nuestro espacio es simple a propósito: madera cálida, plantas, luz natural y una barra donde podés ver
+              cómo se prepara cada taza.
             </p>
           </div>
 
@@ -40,7 +40,7 @@ export function Intro() {
             {highlights.map((item) => (
               <div key={item.label} className="flex flex-col gap-1">
                 <dt className="text-xs leading-snug text-muted-foreground">{item.label}</dt>
-                <dd className="order-first font-serif text-3xl font-medium md:text-4xl">{item.value}</dd>
+                <dd className="order-first font-serif text-3xl font-medium text-primary md:text-4xl">{item.value}</dd>
               </div>
             ))}
           </dl>

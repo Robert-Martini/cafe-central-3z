@@ -11,9 +11,9 @@ const cormorant = Cormorant_Garamond({
 })
 
 export const metadata: Metadata = {
-  title: 'Café Central — Specialty Coffee',
+  title: 'Café Central — Café de especialidad',
   description:
-    'Café Central is a specialty coffee shop serving carefully sourced, freshly roasted coffee in a warm, natural space.',
+    'Café Central es una cafetería de especialidad con granos de origen, tostados en pequeños lotes y servidos en un espacio cálido y natural.',
   generator: 'v0.app',
   icons: {
     icon: [
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
 
 export const viewport: Viewport = {
   colorScheme: 'light',
-  themeColor: '#f6f1ea',
+  themeColor: '#f7f1e8',
 }
 
 export default function RootLayout({
@@ -45,7 +45,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className={`${inter.variable} ${cormorant.variable}`}>
+    <html lang="es-AR" className={`${inter.variable} ${cormorant.variable}`}>
       <body className="antialiased">
         {children}
         {process.env.NODE_ENV === 'production' && <Analytics />}
