@@ -18,9 +18,9 @@ export function SiteFooter() {
         <div>
           <h3 className="text-xs font-medium uppercase tracking-[0.3em] text-accent">Visitanos</h3>
           <address className="mt-4 text-sm leading-relaxed not-italic text-foreground">
-            Av. de Mayo 1240
+            Bvd. Avellaneda 1240
             <br />
-            C1085 Buenos Aires
+            C2000 Rosario
           </address>
           <a
             href="mailto:hola@cafecentral.com.ar"
