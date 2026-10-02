@@ -3,8 +3,8 @@ import { cn } from '@/lib/utils'
 
 export function CallToAction() {
   return (
-    <section id="visit" className="scroll-mt-20 mx-auto max-w-6xl px-6 py-16 md:py-24">
-      <div className="rounded-2xl border border-border bg-card px-6 py-12 md:px-14 md:py-16">
+    <section id="visit" className="scroll-mt-20 mx-auto max-w-6xl px-6 py-12 md:py-16">
+      <div className="rounded-2xl border border-border bg-card px-6 py-10 md:px-14 md:py-12">
         <p className="text-xs font-medium uppercase tracking-[0.3em] text-accent">Vení a visitarnos</p>
         <h2 className="mt-5 max-w-2xl font-serif text-4xl leading-tight font-medium text-balance text-foreground md:text-5xl">
           Tu mesa te espera. El primer café corre por nuestra cuenta.

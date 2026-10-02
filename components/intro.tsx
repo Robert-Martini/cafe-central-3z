@@ -9,7 +9,7 @@ const highlights = [
 export function Intro() {
   return (
     <section id="about" className="scroll-mt-20 border-y border-border bg-secondary">
-      <div className="mx-auto grid max-w-6xl items-center gap-10 px-6 py-16 md:grid-cols-2 md:gap-16 md:py-24">
+      <div className="mx-auto grid max-w-6xl items-center gap-10 px-6 py-12 md:grid-cols-2 md:gap-16 md:py-16">
         <div className="relative aspect-[4/5] overflow-hidden rounded-2xl border border-border">
           <Image
             src="/images/barista-pour.png"
@@ -36,7 +36,7 @@ export function Intro() {
             </p>
           </div>
 
-          <dl className="mt-10 grid grid-cols-3 gap-6 border-t border-border pt-8">
+          <dl className="mt-8 grid grid-cols-3 gap-6 border-t border-border pt-6">
             {highlights.map((item) => (
               <div key={item.label} className="flex flex-col gap-1">
                 <dt className="text-xs leading-snug text-muted-foreground">{item.label}</dt>

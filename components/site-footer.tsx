@@ -6,7 +6,7 @@ const hours = [
 export function SiteFooter() {
   return (
     <footer id="contact" className="scroll-mt-20 border-t border-border bg-secondary">
-      <div className="mx-auto grid max-w-6xl gap-10 px-6 py-14 sm:grid-cols-2 md:grid-cols-4">
+      <div className="mx-auto grid max-w-6xl gap-10 px-6 py-12 sm:grid-cols-2 md:grid-cols-4">
         <div className="sm:col-span-2">
           <p className="font-serif text-2xl font-semibold text-foreground">Café Central</p>
           <p className="mt-1 text-[10px] font-medium uppercase tracking-[0.3em] text-accent">Café de especialidad</p>

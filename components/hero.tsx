@@ -4,7 +4,7 @@ import { cn } from '@/lib/utils'
 
 export function Hero() {
   return (
-    <section className="mx-auto max-w-6xl px-6 pt-10 pb-16 md:pt-16 md:pb-24">
+    <section className="mx-auto max-w-6xl px-6 pt-10 pb-12 md:pt-14 md:pb-16">
       <div className="grid items-center gap-10 lg:grid-cols-12 lg:gap-12">
         <div className="lg:col-span-5">
           <p className="text-xs font-medium uppercase tracking-[0.3em] text-accent">Tostado con dedicación</p>
