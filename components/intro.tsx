@@ -23,16 +23,14 @@ export function Intro() {
         <div>
           <p className="text-xs font-medium uppercase tracking-[0.3em] text-accent">Nuestra historia</p>
           <h2 className="mt-5 font-serif text-4xl leading-tight font-medium text-balance text-foreground md:text-5xl">
-            Un café de barrio construido alrededor del buen café.
+            Un lugar para tomar un buen café y quedarse un rato más.
           </h2>
           <div className="mt-6 max-w-md space-y-4 text-base leading-relaxed text-muted-foreground md:text-lg">
             <p>
-              Trabajamos directamente con pequeños productores para conseguir granos de estación y trazables, y los
-              tostamos en lotes chicos para resaltar lo que hace único a cada uno.
+              En Café Central creemos que un buen café también es una forma de hacer una pausa. Elegimos nuestros granos con cuidado y buscamos que cada taza tenga su propio carácter.
             </p>
             <p>
-              Nuestro espacio es simple a propósito: madera cálida, plantas, luz natural y una barra donde podés ver
-              cómo se prepara cada taza.
+              Un espacio cálido, sencillo y pensado para disfrutar sin apuro, ya sea para empezar el día, encontrarse con alguien o simplemente sentarse a tomar un buen café.
             </p>
           </div>
 

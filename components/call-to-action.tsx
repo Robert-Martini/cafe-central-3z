@@ -7,20 +7,17 @@ export function CallToAction() {
       <div className="rounded-2xl border border-border bg-card px-6 py-10 md:px-14 md:py-12">
         <p className="text-xs font-medium uppercase tracking-[0.3em] text-accent">Vení a visitarnos</p>
         <h2 className="mt-5 max-w-2xl font-serif text-4xl leading-tight font-medium text-balance text-foreground md:text-5xl">
-          Tu mesa te espera. El primer café corre por nuestra cuenta.
+          Hacé una pausa. Tu próximo café te espera.
         </h2>
         <p className="mt-6 max-w-md text-base leading-relaxed text-muted-foreground md:text-lg">
-          Abrimos todos los días desde las 7:30. Estamos en Av. de Mayo 1240, Buenos Aires — buscá la puerta de
-          madera.
+          Un espacio cálido para disfrutar un buen café, compartir un momento o simplemente bajar un cambio.
         </p>
         <div className="mt-8 flex flex-wrap gap-3">
           <a
-            href="https://maps.google.com/?q=Av.+de+Mayo+1240+Buenos+Aires"
-            target="_blank"
-            rel="noopener noreferrer"
+          href="#visit"
             className={cn(buttonVariants(), 'h-12 rounded-full px-7 text-sm')}
           >
-            Cómo llegar
+            Cónoce Café Central
           </a>
           <a
             href="mailto:hola@cafecentral.com.ar"

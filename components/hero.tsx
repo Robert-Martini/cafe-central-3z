@@ -4,7 +4,17 @@ import { cn } from '@/lib/utils'
 
 export function Hero() {
   return (
-    <section className="mx-auto max-w-6xl px-6 pt-10 pb-12 md:pt-14 md:pb-16">
+    <section className="relative isolate overflow-hidden">
+      <Image
+        src="/images/cafe-coffee.avif"
+        alt=""
+        aria-hidden="true"
+        fill
+        sizes="100vw"
+        className="-z-20 object-cover"
+      />
+      <div aria-hidden="true" className="absolute inset-0 -z-10 bg-background/85" />
+      <div className="mx-auto max-w-6xl px-6 pt-10 pb-12 md:pt-14 md:pb-16">
       <div className="grid items-center gap-10 lg:grid-cols-12 lg:gap-12">
         <div className="lg:col-span-5">
           <p className="text-xs font-medium uppercase tracking-[0.3em] text-accent">Tostado con dedicación</p>
@@ -12,8 +22,7 @@ export function Hero() {
             Un café que vale la pena disfrutar sin apuro.
           </h1>
           <p className="mt-6 max-w-md text-base leading-relaxed text-muted-foreground md:text-lg">
-            Granos de origen único, preparados a mano en un rincón tranquilo de la ciudad. Sentate, ponete cómodo y
-            quedate un rato.
+            Seleccionamos granos de calidad y los preparamos con dedicación para que cada taza tenga su propio momento.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <a href="#about" className={cn(buttonVariants(), 'h-12 rounded-full px-7 text-sm')}>
@@ -43,6 +52,7 @@ export function Hero() {
             />
           </div>
         </div>
+      </div>
       </div>
     </section>
   )
